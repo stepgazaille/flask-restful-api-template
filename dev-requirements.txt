@@ -1,0 +1,5 @@
+pep8
+pylint
+nose2
+cov-core
+sphinx

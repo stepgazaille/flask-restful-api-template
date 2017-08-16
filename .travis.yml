@@ -1,0 +1,28 @@
+sudo: required
+language: python
+dist: trusty
+before_install:
+  - sudo apt-get -qq update
+  - sudo ./install-dev-dependencies.sh
+  - pip install -r dev-requirements.txt
+  - mkdir dependencies
+  - cd dependencies
+  - git clone git@github.com:stepgazaille/tyur.git
+  - cd tyur
+  - pip install .
+  - cd ../..
+python:
+  - "3.4"
+  - "3.5"
+  - "3.5-dev"
+  - "3.6-dev"
+  #- "nightly"
+install: pip install $(cat requirements.txt)
+script:
+  - pep8 .
+  #- pylint ./models/ ./resources/
+  - python app.py & newman run tests/smoke-tests.json -e tests/local-environment.json
+branches:
+  except:
+    - api_docs
+    - dev

@@ -1,0 +1,22 @@
+{
+  "id": "94a7c4ab-f2e9-29cf-6764-696c06375834",
+  "name": "local",
+  "values": [
+    {
+      "enabled": true,
+      "key": "url",
+      "type": "text",
+      "value": "http://127.0.0.1:5000"
+    },
+    {
+      "enabled": true,
+      "key": "jwt_token",
+      "type": "text",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE1MDI2NDA5MjksImlkZW50aXR5IjoxLCJpYXQiOjE1MDI2NDA5MjksImV4cCI6MTUwMjY0MTIyOX0.z59Ek7MexMcOAq4q_tF5dW8B4pOkX8tpVf4jXQmkkaM"
+    }
+  ],
+  "timestamp": 1502640929997,
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at": "2017-08-13T16:24:12.423Z",
+  "_postman_exported_using": "Postman/5.1.3"
+}
