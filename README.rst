@@ -1,6 +1,8 @@
 Python 3 REST API template
 **************************
 
+.. image:: https://travis-ci.org/stepgazaille/rest-api-template.svg?branch=master
+    :target: https://travis-ci.org/stepgazaille/rest-api-template
 
 .. contents:: **Contents of this document**
    :depth: 2
