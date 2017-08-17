@@ -5,12 +5,6 @@ before_install:
   - sudo apt-get -qq update
   - sudo ./install-dev-dependencies.sh
   - pip install -r dev-requirements.txt
-  - mkdir dependencies
-  - cd dependencies
-  - git clone git@github.com:stepgazaille/tyur.git
-  - cd tyur
-  - pip install .
-  - cd ../..
 python:
   - "3.4"
   - "3.5"

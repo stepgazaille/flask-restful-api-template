@@ -34,11 +34,12 @@ Usage
 
 Tests
 =====
-Run the install-tests-dependencies.sh script to install the app's tests dependencies:
+Run the install-dev-dependencies.sh script to install the app's dev/tests dependencies:
 
 .. code:: shell
 
-  ./install-tests-dependencies.sh
+  sudo ./install-dev-dependencies.sh
+  pip install -r dev-requirements.txt
 
 Run the following command to run smoke tests (server must be running):
 
