@@ -29,6 +29,8 @@ Run the install.sh script to install the app's dependencies:
 
 Usage
 =====
+Run the following commands start the server (assumes activated Python3 virtual env):
+
 .. code:: shell
 
   python app.py
@@ -36,7 +38,7 @@ Usage
 
 Tests
 =====
-Run the install-dev-dependencies.sh script to install the app's dev/tests dependencies:
+Run the install-dev-dependencies.sh script to install the app's dev/tests dependencies (assumes activated Python3 virtual env):
 
 .. code:: shell
 
