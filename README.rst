@@ -20,7 +20,7 @@ See `requirements.txt <https://github.com/stepgazaille/flask-restful-api-templat
 
 Installation
 ============
-Run the install.sh script to install the app's dependencies:
+Run the install.sh script to install the app's dependencies (assumes activated Python3 virtual env):
 
 .. code:: shell
 
