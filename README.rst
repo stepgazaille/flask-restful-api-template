@@ -1,8 +1,8 @@
-Python 3 REST API template
-**************************
+Python 3 Flask RESTful API template
+***********************************
 
-.. image:: https://travis-ci.org/stepgazaille/rest-api-template.svg?branch=master
-    :target: https://travis-ci.org/stepgazaille/rest-api-template
+.. image:: https://travis-ci.org/stepgazaille/flask-restful-api-template.svg?branch=master
+    :target: https://travis-ci.org/stepgazaille/flask-restful-api-template
 
 .. contents:: **Contents of this document**
    :depth: 2
@@ -15,7 +15,7 @@ This is a template project for creating REST APIs using Python 3 and Flask.
 
 Requirements
 ============
-See requirements.txt
+See `requirements.txt <https://github.com/stepgazaille/flask-restful-api-template/blob/master/requirements.txt>`_.
 
 
 Installation
