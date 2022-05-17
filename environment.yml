@@ -1,0 +1,7 @@
+name: server
+dependencies:
+  - python=3.8
+  - pylint
+  - pip
+  - pip:
+    - -f requirements.txt
